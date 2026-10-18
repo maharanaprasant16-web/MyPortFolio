@@ -111,11 +111,11 @@ window.PORTFOLIO = {
     badge: "Available for Application Head / Product Owner / Solution Delivery Roles",
     title: "Techno-Functional Product Leader & Application Owner",
     tagline: "Digital Lending Transformation • LOS/LMS Architecture • Fintech Ecosystem Delivery",
-    summary: "<b>13+ years</b> of proven expertise driving end-to-end digital lending transformation across NBFCs, Small Finance Banks, and Fintech firms. Bridging business requirements and software engineering to architect and deliver high-scale LOS/LMS, digital onboarding/eKYC, credit decisioning, and automated collection ecosystems.",
-    chips: ["Microfinance & Two-Wheeler", "Home Loan & LAP & MSME", "API Integrations & Credit Bureau", "Agile Delivery & System Modernization"],
+    summary: "<b>14 years</b> of proven expertise driving end-to-end digital lending transformation across NBFCs, Small Finance Banks, and Fintech firms. Bridging business requirements and software engineering to architect and deliver high-scale LOS/LMS, digital onboarding/eKYC, credit decisioning, and automated collection ecosystems.",
+    chips: ["Microfinance", "Two Wheeler","Home Loan & LAP","SME- Small & Medium Enterprises", "Credit Bureau Integration", "Business Rule Engine & Pilicy","Agile Delivery & System Modernization"],
     stats: [
-      { value: "13+", label: "Years Experience" }, { value: "5+", label: "Lending Products" },
-      { value: "4+", label: "Major Enterprise Platforms" }, { value: "IIM", label: "Trichy Alum (PG)" }
+      { value: "14", label: "Years Experience" }, { value: "5+", label: "Lending Products" },
+      { value: "5+", label: "Major Enterprise Platforms" }, { value: "IIM", label: "Trichy Alum (PG)" }
     ]
   },
   contact: {
@@ -130,11 +130,15 @@ window.PORTFOLIO = {
     eyebrow: "Career Journey", title: "Progressive Leadership Roadmap",
     sub: "Consistent growth across Top NBFCs, SFBs, and Microfinance Leaders",
     steps: [
-      { dates: "Nov 2012 – Dec 2014", org: "Micro Finance Ltd", role: "Sr. Tech Support Lead", note: "Production operations, incident triage & reporting analytics." },
-      { dates: "Jul 2015 – Nov 2018", org: "Ujjivan Small Fin. Bank", role: "Business Analyst", note: "Mobile GLOW LOS, CBS integration & data migration on SQL." },
-      { dates: "Nov 2018 – Sep 2022", org: "IIFL Samasta Finance", role: "Sr. Application Manager", note: "GLOW LOS, DW/MDM, Zoho CRM & digital collections." },
+      { dates: "Nov 2023 – Present", org: "L&T Finance Limited", role: "Solution Delivery Lead", note: "Partner onboarding (PhonePe, CRED), digital KYC & credit stack.", current: true },
       { dates: "Sep 2022 – Nov 2023", org: "Fincare Small Fin. Bank", role: "Tech Product Manager", note: "LAP/Home Loan LOS, UPI collections & M-Care/M-Serve modernization." },
-      { dates: "Nov 2023 – Present", org: "L&T Finance Limited", role: "Solution Delivery Lead", note: "Partner onboarding (PhonePe, CRED), digital KYC & credit stack.", current: true }
+      { dates: "Nov 2018 – Sep 2022", org: "IIFL Samasta Finance", role: "Sr. Application Manager", note: "GLOW LOS, DW/MDM, Zoho CRM & digital collections." },
+      { dates: "Jul 2015 – Nov 2018", org: "Ujjivan Small Fin. Bank", role: "Business Analyst", note: "Mobile GLOW LOS, CBS integration & data migration on SQL." },
+      { dates: "Nov 2012 – Dec 2014", org: "Micro Finance Ltd", role: "Sr. Tech Support Lead", note: "Production operations, incident triage & reporting analytics." }
+      
+      
+      
+      
     ]
   },
   projects: {
@@ -169,8 +173,23 @@ window.PORTFOLIO = {
         role: "Architected and executed collection management, payment integrations, and real-time LMS loan account posting workflows.",
         solution: "Integrated collection channels with UPI, Airtel, Fino, and Fingpay, with collection workflows connected directly to the loan management system.",
         tech: ["UPI Collection Engine", "Airtel Payments", "Fino Bank", "Fingpay AEPS", "LMS Posting"],
-        outcome: "Expanded digital repayment channels, reduced cash handling risk, and supported existing field-based collection operations." }
-    ]
+        outcome: "Expanded digital repayment channels, reduced cash handling risk, and supported existing field-based collection operations." },
+        { groups: ["lt"], tag: "Project #5 • L&T Finance", when: "Nov 2023 - Present",
+        title: "AI-Enabled Document Verification", subtitle: "Copilot-Powered Document Validation inside the Salesforce (sFDC) Credit Portal",
+        problem: "Credit teams manually opened and cross-checked every identity, income, bank, and business document, leading to slow turnaround, inconsistent checks, and a higher risk of missed discrepancies.",
+        role: "Owned solution delivery end-to-end: defined verification rules and use cases with credit and risk teams, coordinated architecture and integrations, and drove UAT and production rollout in the credit portal.",
+        solution: "Integrated an AI Copilot into Salesforce (sFDC) to read and validate applicant documents (Aadhaar, PAN, bank statement, GST, CIN/DIN, LEI, URC, payslip, and more) directly in the credit portal, flagging mismatches for underwriters.",
+        tech: ["Salesforce (sFDC)", "AI Copilot", "Aadhaar & PAN", "Bank Statement", "GST", "CIN / DIN", "LEI & URC", "Payslip"],
+        outcome: "Enabled AI-assisted verification of applicant documents inside the credit portal, reducing manual document review and bringing consistency to underwriting checks." },
+        { groups: ["l"], tag: "Project #6 • L&T Finance", when: "Nov 2023 - Present",
+        title: "Project Cyclops",
+        subtitle: "Single Point of Customer Data Analysis for Credit Decisioning",
+        problem: "Customer data arrived from disconnected sources (Account Aggregator, GST, salary statements, geographic data), so each source was analysed separately and the business rule engine had no consolidated view to assess loan eligibility.",
+        role: "Owned solution delivery end-to-end: defined the data sources, integration flows, and key customer indicators with credit and risk teams, coordinated architecture, and drove UAT and production rollout.",
+        solution: "Built Cyclops as a unified analysis layer that ingests data from Account Aggregator, GST, salary statements, and geographic data, analyses it, and publishes key customer insights that the business rule engine uses to calculate the loan amount.",
+        tech: ["Account Aggregator", "GST Data", "Salary Statements", "Geographic Data", "Business Rule Engine", "REST APIs"],
+        outcome: "Established a single point of analysis that gives the business rule engine consistent, consolidated customer insights for loan amount calculation." },
+          ]
   },
   experience: {
     eyebrow: "Work History", title: "Professional Experience", sub: "Detailed responsibilities and achievements across roles",
